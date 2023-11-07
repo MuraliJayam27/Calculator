@@ -41,7 +41,7 @@ public class Main {
                         num = reader.nextInt();
                         System.out.print("Enter number2: \n");
                         exp = reader.nextInt();
-                        subt(num,exp);
+                        subt(num, exp);
                         break;
 
                     case 3: //Power
