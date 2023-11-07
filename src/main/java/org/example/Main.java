@@ -65,6 +65,7 @@ public class Main {
                     default:
                         System.out.println("Exiting due to invalid input!!");
                         flag = 1;
+                        logger.info("Calculator Ends!!");
                 }
             }
         }while(flag == 0);
