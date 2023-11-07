@@ -59,7 +59,7 @@ public class Main {
                         num = reader.nextInt();
                         System.out.print("Enter number2: \n");
                         exp = reader.nextInt();
-                        mul(num,exp);
+                        mul(num, exp);
                         break;
 
                     default:
