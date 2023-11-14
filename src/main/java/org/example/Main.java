@@ -50,7 +50,7 @@ public class Main {
                         num = reader.nextInt();
                         System.out.print("Enter number2: \n");
                         exp = reader.nextInt();
-                        per(num,exp);
+                        per(num, exp);
                         break;
 
                     case 4: //Multiply
