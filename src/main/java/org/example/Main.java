@@ -84,7 +84,7 @@ public class Main {
         logger.info("Executing subtraction for"+num+" and "+exp+". Result: "+c+"\n");
         return c;
     }
-    public static int mul(int num, int exp){
+    public static int mul(int num,int exp){
         int c = num*exp;
         System.out.println("\nThe Result is "+c+"\n");
         logger.info("Executing subtraction for"+num+" and "+exp+". Result: "+c+"\n");
