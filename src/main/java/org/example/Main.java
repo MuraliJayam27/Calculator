@@ -53,7 +53,7 @@ public class Main {
                         per(num,exp);
                         break;
 
-                    case 4: //Power
+                    case 4: //Multiply
                         System.out.println("Multiply two numbers!!\n");
                         System.out.print("Enter number1: \n");
                         num = reader.nextInt();
@@ -87,13 +87,13 @@ public class Main {
     public static int mul(int num, int exp){
         int c = num*exp;
         System.out.println("\nThe Result is "+c+"\n");
-        logger.info("Executing subtraction for"+num+" and "+exp+". Result : "+c+"\n");
+        logger.info("Executing multiplication for"+num+" and "+exp+". Result : "+c+"\n");
         return c;
     }
     public static int per(int num, int exp){
         int c = num%exp;
         System.out.println("\nThe Result is "+c+"\n");
-        logger.info("Executing subtraction for"+num+" and "+exp+". Result: "+c+"\n");
+        logger.info("Executing percentile for"+num+" and "+exp+". Result: "+c+"\n");
         return c;
     }
 }

@@ -2,7 +2,7 @@ import org.example.Main;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-public class UnscientificTest {
+public class CalculatorTest {
     private Main uncalculator;
     @Before
     public void setUp() {
